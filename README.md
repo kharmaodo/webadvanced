@@ -1,9 +1,11 @@
-# Jakarta EE
+# Advanced Web Application EE
+
+Advanced Web Application using Polyglot languages, framework and librairies
+
 Buiding
 
   ```
   ./mvnw clean package
   ```
  
-  This will generate a file named `jakartaee-hello-world.war`. You should be able to run the application by deploying the file to
-  a [Jakarta EE compatible runtime](https://jakarta.ee/compatibility). 
+  This will generate a file named `masterdsgljee.war`. You should be able to run the application by deploying the file to
