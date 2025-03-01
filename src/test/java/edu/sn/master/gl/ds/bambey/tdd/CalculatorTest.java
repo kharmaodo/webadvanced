@@ -1,11 +1,8 @@
 package edu.sn.master.gl.ds.bambey.tdd;
 
-import static org.junit.jupiter.api.Assertions.*;
-import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import edu.sn.master.gl.ds.bambey.tdd.Calculator;
-import edu.sn.master.gl.ds.bambey.tdd.ICalculator;
-import edu.sn.master.gl.ds.bambey.tdd.MessageInteger;
+import org.junit.jupiter.api.Test;
 
 public class CalculatorTest {
 	String functionOne = """
