@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>edu.sn.master.gl.ds.bambey</groupId>
-	<artifactId>master-jee</artifactId>
+	<artifactId>master-webadvanced-jee</artifactId>
 	<version>0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
 
@@ -37,6 +37,26 @@
 			<version>${jakartaee-api.version}</version>
 			<scope>provided</scope>
 		</dependency>
+		
+		<!-- https://mvnrepository.com/artifact/junit/junit 
+			<dependency>
+			    <groupId>junit</groupId>
+			    <artifactId>junit</artifactId>
+			    <version>4.13.2</version>
+			    <scope>test</scope>
+			</dependency>
+			-->
+			
+			
+			<!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter -->
+				<dependency>
+				    <groupId>org.junit.jupiter</groupId>
+				    <artifactId>junit-jupiter</artifactId>
+				    <version>5.12.0</version>
+				    <scope>test</scope>
+				</dependency>
+
+
 	</dependencies>
 
 	<build>
